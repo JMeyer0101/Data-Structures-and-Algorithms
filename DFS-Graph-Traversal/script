@@ -1,0 +1,176 @@
+Script started on Tue 25 Nov 2014 09:27:45 AM PST
+]0;meyer066@empress:~/Documents/HWPrograms/forHW7[meyer066@empress forHW7]$ g++ llist.cpp slist.cpp dgraph.cpp stack.cpp DFSgraphCl[KLIENT.cpp
+]0;meyer066@empress:~/Documents/HWPrograms/forHW7[meyer066@empress forHW7]$ ./a.out
+Initializing..
+Filling graph table..
+Displaying Graph: 
+
+A
+Out Deg: 2
+Visit Num: 0
+Adjacency list: BF
+ 
+B
+Out Deg: 2
+Visit Num: 0
+Adjacency list: CG
+ 
+C
+Out Deg: 1
+Visit Num: 0
+Adjacency list: H
+ 
+E
+Out Deg: 0
+Visit Num: 0
+Adjacency list:  [ empty ] 
+ 
+F
+Out Deg: 2
+Visit Num: 0
+Adjacency list: IE
+ 
+G
+Out Deg: 0
+Visit Num: 0
+Adjacency list:  [ empty ] 
+ 
+H
+Out Deg: 2
+Visit Num: 0
+Adjacency list: GI
+ 
+I
+Out Deg: 3
+Visit Num: 0
+Adjacency list: AGE
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Initializing DFS..
+A has not been visited. Marking A and pushing adjacent vertices
+Displaying stack: 
+
+F
+B
+Visiting B
+B has not been visited. Marking B and pushing adjacent vertices
+::::New stack with adjacencies::::  
+F
+G
+C
+Visiting C
+C has not been visited. Marking C and pushing adjacent vertices
+::::New stack with adjacencies::::  
+F
+G
+H
+Visiting H
+H has not been visited. Marking H and pushing adjacent vertices
+::::New stack with adjacencies::::  
+F
+G
+I
+G
+Visiting G
+G has not been visited. Marking G and pushing adjacent vertices
+::::New stack with adjacencies::::  
+F
+G
+I
+Visiting I
+I has not been visited. Marking I and pushing adjacent vertices
+::::New stack with adjacencies::::  
+F
+G
+E
+G
+A
+Visiting A
+Vertex A has been marked
+Visiting G
+Vertex G has been marked
+Visiting E
+E has not been visited. Marking E and pushing adjacent vertices
+::::New stack with adjacencies::::  
+F
+G
+Visiting G
+Vertex G has been marked
+Visiting F
+F has not been visited. Marking F and pushing adjacent vertices
+::::New stack with adjacencies::::  
+E
+I
+Visiting I
+Vertex I has been marked
+Visiting E
+Vertex E has been marked
+ :::::Graph Result::::  
+A
+Out Deg: 2
+Visit Num: 1
+Adjacency list: BF
+ 
+B
+Out Deg: 2
+Visit Num: 2
+Adjacency list: CG
+ 
+C
+Out Deg: 1
+Visit Num: 3
+Adjacency list: H
+ 
+E
+Out Deg: 0
+Visit Num: 7
+Adjacency list:  [ empty ] 
+ 
+F
+Out Deg: 2
+Visit Num: 8
+Adjacency list: IE
+ 
+G
+Out Deg: 0
+Visit Num: 5
+Adjacency list:  [ empty ] 
+ 
+H
+Out Deg: 2
+Visit Num: 4
+Adjacency list: GI
+ 
+I
+Out Deg: 3
+Visit Num: 6
+Adjacency list: AGE
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+sh: pause: command not found
+]0;meyer066@empress:~/Documents/HWPrograms/forHW7[meyer066@empress forHW7]$ exit
+exit
+
+Script done on Tue 25 Nov 2014 09:29:02 AM PST
